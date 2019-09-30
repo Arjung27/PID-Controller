@@ -1,16 +1,23 @@
-# C++ Boilerplate
-[![Build Status](https://travis-ci.org/Arjung27/PID-Controller.svg?branch=master)](https://travis-ci.org/Arjung27/PID-Controller)
-[![Coverage Status](https://coveralls.io/repos/github/Arjung27/PID-Controller/badge.svg?branch=master)](https://coveralls.io/github/Arjung27/PID-Controller?branch=master)
+# PID Controller using Test Driven Development
+[![Build Status](https://travis-ci.org/bshantam97/PID-Controller.svg?branch=master)](https://travis-ci.org/Arjung27/PID-Controller)
+[![Coverage Status](https://coveralls.io/repos/github/bshantam97/PID-Controller/badge.svg?branch=master)](https://coveralls.io/github/bshantam97/PID-Controller?branch=master)
 ---
 
 ## Authors
+Part 1
 
 - Driver    : [Arjung27](https://github.com/Arjung27)
 - Navigator : [kartikmadhira1](https://github.com/kartikmadhira1)
 
+Part 2(Implementation)
+
+-Driver     : Shantam Bajpai
+
+-Navigator  : Saumil Shah
+
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/dpiet/cpp-boilerplate
+git clone --recursive https://github.com/bshantam97/PID-Controller.git
 cd <path to repository>
 mkdir build
 cd build
@@ -20,7 +27,7 @@ Run tests: ./test/cpp-test
 Run program: ./app/shell-app
 ```
 
-## Building for code coverage (for assignments beginning in Week 4)
+## Building for code coverage
 ```
 sudo apt-get install lcov
 cmake -D COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug ../
