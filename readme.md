@@ -11,8 +11,8 @@ Part 1
 
 Part 2(Implementation)
 
--Driver     : [kartikmadhira1](https://github.com/kartikmadhira1)
--Navigator  : [Arjung27](https://github.com/Arjung27)
+- Driver     : [kartikmadhira1](https://github.com/kartikmadhira1)
+- Navigator  : [Arjung27](https://github.com/Arjung27)
 
 ## Standard install via command-line
 ```
