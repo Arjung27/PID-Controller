@@ -18,6 +18,11 @@ using ::testing::AtLeast;
 using ::testing::Return;
 using ::testing::_;
 
+/**
+ * @brief Test for setGainValues() function of the genralPidController class.
+ * Checks using GMOCK object if methods are correctly defined and return
+ * expected values or not.
+ */
 TEST(GeneralPidControllerTest, setGainValuesTest) {
     mockGeneralPidController gpid;
     pidController pid;
@@ -26,6 +31,11 @@ TEST(GeneralPidControllerTest, setGainValuesTest) {
     EXPECT_EQ(true, pid.setGainValues(1.0, 2.0, 3.0));
 }
 
+/**
+ * @brief Test for setThreshold() function of the genralPidController class.
+ * Checks using GMOCK object if methods are correctly defined and return
+ * expected values or not.
+ */
 TEST(GeneralPidControllerTest, setThresholdTest) {
     mockGeneralPidController gpid;
     pidController pid;
@@ -34,6 +44,11 @@ TEST(GeneralPidControllerTest, setThresholdTest) {
     EXPECT_EQ(true, pid.setThreshold(10));
 }
 
+/**
+ * @brief Test for computePidError() function of the genralPidController class.
+ * Checks using GMOCK object if methods are correctly defined and return
+ * expected values or not.
+ */
 TEST(GeneralPidControllerTest, computePidErrorTest) {
     mockGeneralPidController gpid;
     pidController pid;
