@@ -7,7 +7,8 @@
  * @copyright  : This code is written for ENPM808X. Please
  *               cite if code is used.
  */
-#pragma once
+#ifndef INCLUDE_PIDCONTROLLER_HPP_
+#define INCLUDE_PIDCONTROLLER_HPP_
 
 #include <iostream>
 #include <vector>
@@ -50,3 +51,5 @@ class pidController : public generalPidController {
      */
     ~pidController();
 };
+
+#endif  // INCLUDE_PIDCONTROLLER_HPP_
