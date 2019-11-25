@@ -7,10 +7,11 @@
  *               cite if code is used.
  */
 
-#include "../include/pid_controller.hpp"
+#include "../include/pidController.hpp"
+#include "../include/generalPidController.hpp"
 
 int main() {
-    PidController pid;
+    pidController pid;
     pid.setGainValues(1, 2, 4);
     pid.setThreshold(10.0);
     vector<float> pidVector = pid.getGainValues();
@@ -21,8 +22,7 @@ int main() {
         cout << gainNames[i] << ": " << values << endl;
         ++i;
     }
-    pid.computePidError(9, 4, 2);
-    std::cout << "The control error is:" << pid.getControlError()
+    std::cout << "The control error is:" << pid.computePidError(9, 4, 2)
               << std::endl;
     // pid.printNewVelocity(pid.getControlError() , 4);
     return 0;
