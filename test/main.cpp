@@ -6,7 +6,8 @@
  * @copyright  : This code is written for ENPM808X. Please
  *               cite if code is used.
  */
-#include <gtest/gtest.h>
+#include "gtest/gtest.h"
+#include "gmock/gmock.h"
 
 int main(int argc, char** argv) {
   ::testing::InitGoogleTest(&argc, argv);
