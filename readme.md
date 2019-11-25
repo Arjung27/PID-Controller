@@ -47,3 +47,11 @@ cd <path to repository>
 cppcheck --enable=all --std=c++11 -I include/ --suppress=missingIncludeSystem $( find . -name *.cpp | grep -vE -e "^./build/" -e "^./vendor/" )
 
 ```
+## GMock
+```
+- Class Mocked - pidController.hpp
+- Added a virtual class to implement the GMock tests
+- Class diagram updated as per the modified structure
+- Added GMock dependencies to all the relevant CMakeLists 
+```
+GMock tests can be run just like the unit tests.
